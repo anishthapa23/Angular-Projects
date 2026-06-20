@@ -1,0 +1,48 @@
+.btn{
+    padding: 10px 20px;
+    border: 2px dotted black;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Times New Roman, Times, serif;
+}
+
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-red{
+    background-color: red;
+}
+
+.btn:hover{
+    transition: opacity 0.8;
+    border: 2px solid rgb(14, 13, 13);
+}
+
+.counter{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    background-color: gray;
+    margin: auto;
+    border-radius: 15px;
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.body{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: radial-gradient(circle, rgb(120, 163, 195),rgb(184, 128, 137)) ;
+}

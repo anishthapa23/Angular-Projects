@@ -1,12 +1,18 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component , signal} from '@angular/core';
+import { Login } from './login/login';
+import { ProfileComponent } from './profile/profile.component';
+import { Counter } from './counter/counter';
+// import { RouterOutlet } from '@angular/router';
 
 @Component({
+  standalone: true,
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Login, ProfileComponent, Counter],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
   protected readonly title = signal('angular-practice');
+  name = 'Anish';
 }
+  
