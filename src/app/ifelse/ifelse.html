@@ -1,0 +1,33 @@
+
+<div class="whole">
+
+    <button (click)=hide()>Hide Button</button>
+    
+    <button (click)=show()>Show Button</button>
+    <br>
+    
+    
+    @if(display==true)
+    {
+        <div style="background-color: aqua; width: 300px; height: 300px; margin: auto;border-radius: 30px;"></div>
+        
+    }
+    
+    <hr>
+    
+    <button (click)="ToggleTwoDiv()">{{toggleDiv?'show green':'show red'}}</button>
+    
+    @if(toggleDiv)
+    {
+        <div style="background-color: red; width: 300px; height: 300px;margin: auto;border-radius: 30px;"></div>
+        
+    }
+    @else {
+        
+        <div style="background-color: green; width: 300px; height: 300px;margin: auto;border-radius: 30px;"></div>
+        
+        
+    }
+    
+</div>
+    

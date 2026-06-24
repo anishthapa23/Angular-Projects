@@ -1,0 +1,25 @@
+button{
+    background-color: rgb(215, 187, 29);
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    border: 2px dotted  black;
+    font-family:Impact;
+}
+
+.whole{
+    background: radial-gradient(pink, purple);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: center;
+
+}
+button:hover{
+    transition:opacity 0.8 ;
+    border: 2px solid rgb(14, 13, 13);
+}
+
